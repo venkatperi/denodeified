@@ -1,9 +1,3 @@
-fs = require 'fs'
-
-isModified = ( filepath ) ->
-  now = new Date()
-  modified = fs.statSync( filepath ).mtime
-  return (now - modified) < 10000
 
 module.exports = ( grunt ) ->
 

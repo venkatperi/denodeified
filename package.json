@@ -8,13 +8,14 @@
   "preferGlobal": false,
   "description": "`denodeified` nodejs methods returning promises instead of callbacks",
   "dependencies": {
+    "q": "^1.4.1"
   },
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
   "bundleDependencies": [],
-  "main": "./index",
+  "main": "dist/index",
   "scripts": {
     "prepublish": "grunt",
     "test": "mocha"

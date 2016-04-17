@@ -10,4 +10,4 @@ dfs = {}
 dfs[ m ] = Q.denodeify fs[ m ] for m in fsMethods
 
 module.exports =
-  fs : dfs
+  dfs : dfs
